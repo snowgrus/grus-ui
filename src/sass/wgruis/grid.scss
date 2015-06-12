@@ -1,0 +1,15 @@
+.container {
+  width: $screen-pc-base;
+  margin-right: auto;
+  margin-left: auto;
+
+  @include clearfix;
+}
+.row {
+  @include clearfix;
+}
+.cols {
+  float: left;
+}
+
+@include make-grid();

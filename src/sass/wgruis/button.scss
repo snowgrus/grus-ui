@@ -1,0 +1,67 @@
+.k-btn {
+  display: inline-block;
+  padding: $distance-small $size-base * .6;
+  font-size: $font-size-large;
+  color: $text-btn;
+  text-decoration: none;
+  background-color: $red;
+  border: none;
+  border-radius: $size-base;
+  &:hover,
+  &:focus,
+  &:active,
+  &:visited {
+    color: $text-btn;
+    text-decoration: none;
+  }
+}
+
+.k-btn-success {
+  background-color: $brand-success;
+}
+.k-btn-info {
+  background-color: $brand-info;
+}
+.k-btn-warning {
+  background-color: $brand-warning;
+}
+
+.k-btn-icon {
+  padding: $distance-small $size-base $distance-small ($size-base * 2 + $distance-small * 2);
+  font-size: $font-size-large;
+  background-repeat: no-repeat;
+  background-position: $size-base center;
+  background-size: $size-base $size-base;
+}
+
+.k-btn-icon-small {
+  padding-left: ($size-base * 2 + $distance-small);
+}
+
+.icon-android {
+  background-image: url(../images/icon-android.png);
+}
+
+.icon-email {
+  background-color: $brand-success;
+  background-image: url(../images/icon-email.png);
+}
+
+.icon-qq {
+  background-image: url(../images/icon-qq.png);
+}
+
+.icon-sina-weibo {
+  background-color: #faae1d;
+  background-image: url(../images/icon-sina-weibo.png);
+}
+
+.icon-baidu-tie {
+  background-color: $brand-info;
+  background-image: url(../images/icon-baidu-tie.png);
+}
+
+.icon-telephone {
+  background-color: $brand-warning;
+  background-image: url(../images/icon-telephone.png);
+}

@@ -1,0 +1,14 @@
+.k-icon {
+  display: inline-block;
+  float: left;
+  width: $size-base;
+  height: $size-base;
+  background-repeat: no-repeat;
+  background-size: $size-base $size-base;
+}
+
+@each $animal in email, invite, money, more, use, user, qq, sina-weibo, baidu-tie, telephone, android, ios {
+   .icon-#{$animal} {
+    background-image: url(../images/icon-#{$animal}.png);
+  }
+}
