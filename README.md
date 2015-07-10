@@ -1,2 +1,2 @@
-# gruis-sass
-Gruis.w personal common sass module in develop
+# gruis-ui
+Gruis.w personal common UI module in develop
