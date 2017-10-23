@@ -1,2 +1,2 @@
-# gruis-ui
-Gruis.w personal common UI module in develop
+# grus-ui
+Snow Grus UI components
